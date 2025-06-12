@@ -58,11 +58,7 @@ Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 ---
 
 ## 👥 Credits
-- **Team:** UPLB AquaGuard
-- **Design & Dev:** [Your Names Here]
+- **Team:** IoTayo - UPLB
 - **Special Thanks:** Hackathon organizers & mentors
 
 ---
-
-## 📄 License
-MIT
