@@ -1,54 +1,68 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="https://i.imgur.com/2yaf2wb.png" alt="AquaGuard Logo" width="180"/>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react)](https://react.dev/) [![MUI](https://img.shields.io/badge/UI-MUI-007FFF?logo=mui)](https://mui.com/) [![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF?logo=vite)](https://vitejs.dev/) [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript)](https://www.typescriptlang.org/) [![Styled Components](https://img.shields.io/badge/Style-Styled%20Components-db7093?logo=styled-components)](https://styled-components.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+# AquaGuard Dashboard
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+AquaGuard Dashboard is a modern, real-time web application for monitoring water quality and pollution events in Laguna de Bay. Designed for authorities and communities, it visualizes sensor data, highlights pollution hotspots, and provides actionable insights for rapid response.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Features
+- Interactive map/heatmap of Laguna de Bay
+- Sidebar filters (City, Measure, Date Range)
+- Real-time waste alerts and incident details
+- Key metrics: Active Units, Water Level, Turbidity, O2 Levels
+- Waste report summary
+- Responsive, judge-friendly UI
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React + Vite
+- **UI:** MUI (Material UI)
+- **Styling:** Styled Components
+- **Language:** TypeScript
+
+---
+
+## ⚡ Getting Started
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## 📁 Folder Structure
 ```
+/ (root)
+ ├─ src/           # Main source code
+ │   ├─ components/ # UI components
+ │   ├─ assets/     # Images and static assets
+ │   └─ ...
+ ├─ public/        # Static files
+ ├─ package.json   # Project config
+ └─ ...
+```
+
+---
+
+## 👥 Credits
+- **Team:** UPLB AquaGuard
+- **Design & Dev:** [Your Names Here]
+- **Special Thanks:** Hackathon organizers & mentors
+
+---
+
+## 📄 License
+MIT
