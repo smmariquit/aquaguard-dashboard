@@ -62,3 +62,7 @@ Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 - **Special Thanks:** Hackathon organizers & mentors
 
 ---
+
+
+---
+*If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
