@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/2yaf2wb.png" alt="AquaGuard Logo" width="180"/>
+ <img src="https://i.imgur.com/2yaf2wb.png" alt="AquaGuard Logo" width="180"/>
 </div>
 
 <div align="center">
@@ -63,7 +63,6 @@ Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 
 ---
 
-
 ---
 *If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
 
@@ -71,7 +70,6 @@ Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 - **Tech Stack:** React, Node.js/NPM
 - **Repository Size:** 21 tracked files
 - **Latest Update:** `24f63df chore: add stale issue and PR validators`
-
 
 ---
 *☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*
