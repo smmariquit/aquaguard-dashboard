@@ -46,12 +46,12 @@ Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 ## 📁 Folder Structure
 ```
 / (root)
- ├─ src/           # Main source code
- │   ├─ components/ # UI components
- │   ├─ assets/     # Images and static assets
- │   └─ ...
- ├─ public/        # Static files
- ├─ package.json   # Project config
+ ├─ src/ # Main source code
+ │ ├─ components/ # UI components
+ │ ├─ assets/ # Images and static assets
+ │ └─ ...
+ ├─ public/ # Static files
+ ├─ package.json # Project config
  └─ ...
 ```
 
